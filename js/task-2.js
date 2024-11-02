@@ -4,6 +4,6 @@ function getShippingMessage(country, price, deliveryFee) {
 }
 
 // Перевірка коректності роботи функції
-console.log(getShippingMessage('Australia', 120, 50)); // Shipping to Ukraine will cost 170 credits
-console.log(getShippingMessage('Germany', 80, 20)); // Shipping to USA will cost 100 credits
-console.log(getShippingMessage('Sweden', 100, 20)); // Shipping to Japan will cost 120 credits
+console.log(getShippingMessage('Australia', 120, 50)); // Shipping to Australia will cost 170 credits
+console.log(getShippingMessage('Germany', 80, 20)); // Shipping to Germany will cost 100 credits
+console.log(getShippingMessage('Sweden', 100, 20)); // Shipping to Sweden will cost 120 credits
